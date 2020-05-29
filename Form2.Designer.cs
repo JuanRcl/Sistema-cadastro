@@ -40,6 +40,7 @@
             this.cb1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.linkdelete = new System.Windows.Forms.LinkLabel();
+            this.linkSair = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // button1
@@ -169,6 +170,22 @@
             this.linkdelete.VisitedLinkColor = System.Drawing.Color.White;
             this.linkdelete.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkdelete_LinkClicked);
             // 
+            // linkSair
+            // 
+            this.linkSair.ActiveLinkColor = System.Drawing.Color.White;
+            this.linkSair.AutoSize = true;
+            this.linkSair.BackColor = System.Drawing.Color.Transparent;
+            this.linkSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSair.LinkColor = System.Drawing.Color.White;
+            this.linkSair.Location = new System.Drawing.Point(581, 353);
+            this.linkSair.Name = "linkSair";
+            this.linkSair.Size = new System.Drawing.Size(29, 15);
+            this.linkSair.TabIndex = 24;
+            this.linkSair.TabStop = true;
+            this.linkSair.Text = "Sair";
+            this.linkSair.VisitedLinkColor = System.Drawing.Color.White;
+            this.linkSair.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSair_LinkClicked);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,6 +193,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(703, 427);
+            this.Controls.Add(this.linkSair);
             this.Controls.Add(this.linkdelete);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cb1);
@@ -213,5 +231,6 @@
         private System.Windows.Forms.ComboBox cb1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.LinkLabel linkdelete;
+        private System.Windows.Forms.LinkLabel linkSair;
     }
 }

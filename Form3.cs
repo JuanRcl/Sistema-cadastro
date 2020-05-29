@@ -94,5 +94,10 @@ namespace cadastro
         {
             Application.Run(new Form2());
         }
+
+        private void linkSair_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
