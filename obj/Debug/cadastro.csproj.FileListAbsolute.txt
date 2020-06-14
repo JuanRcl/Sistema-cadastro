@@ -26,3 +26,6 @@ C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sis
 C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sistema-cadastro\obj\Debug\cadastro.csproj.CopyComplete
 C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sistema-cadastro\obj\Debug\cadastro.exe
 C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sistema-cadastro\obj\Debug\cadastro.pdb
+C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sistema-cadastro\obj\Debug\cadastro.home.resources
+C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sistema-cadastro\obj\Debug\cadastro.cadastrar.resources
+C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sistema-cadastro\obj\Debug\cadastro.redefinir.resources

@@ -83,13 +83,7 @@ namespace cadastro
         {
 
         }
-        private void linkVoltar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            this.Close();
-            Thread t2 = new Thread(abrirJanela);
-            t2.SetApartmentState(ApartmentState.STA);
-            t2.Start();
-        }
+       
         private void abrirJanela(object obj)
         {
             Application.Run(new Form2());
@@ -98,6 +92,15 @@ namespace cadastro
         private void linkSair_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Application.Exit();
+        }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Thread t2 = new Thread(abrirJanela);
+            t2.SetApartmentState(ApartmentState.STA);
+            t2.Start();
         }
     }
 }
