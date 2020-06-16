@@ -91,9 +91,15 @@ namespace cadastro
 
         private void linkSair_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Application.Exit();
+            this.Close();
+            t3 = new Thread(login);
+            t3.SetApartmentState(ApartmentState.STA);
+            t3.Start();
         }
-
+        private void login(object obj)
+        {
+            Application.Run(new Form1());
+        }
         private void btn_voltar_Click(object sender, EventArgs e)
         {
             this.Close();

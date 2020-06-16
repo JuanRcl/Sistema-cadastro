@@ -29,3 +29,5 @@ C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sis
 C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sistema-cadastro\obj\Debug\cadastro.home.resources
 C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sistema-cadastro\obj\Debug\cadastro.cadastrar.resources
 C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sistema-cadastro\obj\Debug\cadastro.redefinir.resources
+C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sistema-cadastro\obj\Debug\cadastro.pesquisa.resources
+C:\Users\Juan Pablo\Documents\GitHub\Sistema de Cadastro\Sistema de Cadastro\Sistema-cadastro\obj\Debug\cadastro.atualizar.resources

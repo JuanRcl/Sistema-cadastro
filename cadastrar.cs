@@ -64,5 +64,17 @@ namespace cadastro
         {
             Application.Run(new Form1());
         }
+
+        private void btn_voltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            tr = new Thread(login);
+            tr.SetApartmentState(ApartmentState.STA);
+            tr.Start();
+        }
+        private void login(object obj)
+        {
+            Application.Run(new Form1());
+        }
     }
 }

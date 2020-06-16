@@ -50,9 +50,10 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Lucida Bright", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(540, 437);
+            this.button1.Location = new System.Drawing.Point(720, 538);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 33);
+            this.button1.Size = new System.Drawing.Size(149, 41);
             this.button1.TabIndex = 0;
             this.button1.Text = "Cadastrar";
             this.button1.UseVisualStyleBackColor = false;
@@ -64,9 +65,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(277, 164);
+            this.label1.Location = new System.Drawing.Point(369, 202);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 20);
+            this.label1.Size = new System.Drawing.Size(48, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Nome";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -75,9 +77,10 @@
             // 
             this.tb1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb1.Location = new System.Drawing.Point(372, 164);
+            this.tb1.Location = new System.Drawing.Point(496, 202);
+            this.tb1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tb1.Name = "tb1";
-            this.tb1.Size = new System.Drawing.Size(269, 26);
+            this.tb1.Size = new System.Drawing.Size(358, 23);
             this.tb1.TabIndex = 2;
             // 
             // label2
@@ -86,9 +89,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(277, 219);
+            this.label2.Location = new System.Drawing.Point(369, 270);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 20);
+            this.label2.Size = new System.Drawing.Size(58, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Email";
             // 
@@ -96,9 +100,10 @@
             // 
             this.tb2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb2.Location = new System.Drawing.Point(372, 219);
+            this.tb2.Location = new System.Drawing.Point(496, 270);
+            this.tb2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tb2.Name = "tb2";
-            this.tb2.Size = new System.Drawing.Size(269, 26);
+            this.tb2.Size = new System.Drawing.Size(358, 23);
             this.tb2.TabIndex = 4;
             // 
             // label3
@@ -107,9 +112,10 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(277, 273);
+            this.label3.Location = new System.Drawing.Point(369, 336);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 20);
+            this.label3.Size = new System.Drawing.Size(38, 16);
             this.label3.TabIndex = 5;
             this.label3.Text = "CPF";
             // 
@@ -117,9 +123,10 @@
             // 
             this.tb3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb3.Location = new System.Drawing.Point(372, 273);
+            this.tb3.Location = new System.Drawing.Point(496, 336);
+            this.tb3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tb3.Name = "tb3";
-            this.tb3.Size = new System.Drawing.Size(269, 26);
+            this.tb3.Size = new System.Drawing.Size(358, 23);
             this.tb3.TabIndex = 6;
             // 
             // label4
@@ -128,9 +135,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(277, 324);
+            this.label4.Location = new System.Drawing.Point(369, 399);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 20);
+            this.label4.Size = new System.Drawing.Size(68, 16);
             this.label4.TabIndex = 7;
             this.label4.Text = "Estado";
             // 
@@ -142,9 +150,10 @@
             "SP",
             "DF",
             "RJ"});
-            this.cb1.Location = new System.Drawing.Point(372, 321);
+            this.cb1.Location = new System.Drawing.Point(496, 395);
+            this.cb1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cb1.Name = "cb1";
-            this.cb1.Size = new System.Drawing.Size(121, 28);
+            this.cb1.Size = new System.Drawing.Size(160, 24);
             this.cb1.TabIndex = 8;
             // 
             // label5
@@ -153,11 +162,12 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Lucida Console", 19F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(411, 18);
+            this.label5.Location = new System.Drawing.Point(435, 28);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 32);
+            this.label5.Size = new System.Drawing.Size(352, 26);
             this.label5.TabIndex = 9;
-            this.label5.Text = "LOGIN";
+            this.label5.Text = "Cadastro de Clientes";
             // 
             // linkSair
             // 
@@ -166,9 +176,10 @@
             this.linkSair.BackColor = System.Drawing.Color.Transparent;
             this.linkSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkSair.LinkColor = System.Drawing.Color.White;
-            this.linkSair.Location = new System.Drawing.Point(808, 32);
+            this.linkSair.Location = new System.Drawing.Point(1077, 39);
+            this.linkSair.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkSair.Name = "linkSair";
-            this.linkSair.Size = new System.Drawing.Size(34, 18);
+            this.linkSair.Size = new System.Drawing.Size(29, 15);
             this.linkSair.TabIndex = 24;
             this.linkSair.TabStop = true;
             this.linkSair.Text = "Sair";
@@ -182,9 +193,10 @@
             this.btn_voltar.FlatAppearance.BorderSize = 0;
             this.btn_voltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_voltar.Font = new System.Drawing.Font("Lucida Bright", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_voltar.Location = new System.Drawing.Point(302, 437);
+            this.btn_voltar.Location = new System.Drawing.Point(403, 538);
+            this.btn_voltar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_voltar.Name = "btn_voltar";
-            this.btn_voltar.Size = new System.Drawing.Size(112, 33);
+            this.btn_voltar.Size = new System.Drawing.Size(149, 41);
             this.btn_voltar.TabIndex = 25;
             this.btn_voltar.Text = "Voltar";
             this.btn_voltar.UseVisualStyleBackColor = false;
@@ -192,11 +204,11 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(918, 534);
+            this.ClientSize = new System.Drawing.Size(1224, 657);
             this.Controls.Add(this.btn_voltar);
             this.Controls.Add(this.linkSair);
             this.Controls.Add(this.label5);
@@ -211,6 +223,7 @@
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form2";

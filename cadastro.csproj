@@ -65,6 +65,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="atualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="atualizar.Designer.cs">
+      <DependentUpon>atualizar.cs</DependentUpon>
+    </Compile>
     <Compile Include="cadastrar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,12 @@
     <Compile Include="home.Designer.cs">
       <DependentUpon>home.cs</DependentUpon>
     </Compile>
+    <Compile Include="pesquisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pesquisa.Designer.cs">
+      <DependentUpon>pesquisa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="redefinir.cs">
@@ -103,6 +115,9 @@
     <Compile Include="redefinir.Designer.cs">
       <DependentUpon>redefinir.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="atualizar.resx">
+      <DependentUpon>atualizar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cadastrar.resx">
       <DependentUpon>cadastrar.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="home.resx">
       <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pesquisa.resx">
+      <DependentUpon>pesquisa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

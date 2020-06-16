@@ -91,7 +91,10 @@ namespace cadastro
 
         private void linkSair_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Application.Exit();
+            this.Close();
+            t2 = new Thread(login);
+            t2.SetApartmentState(ApartmentState.STA);
+            t2.Start();
         }
 
 
@@ -101,6 +104,10 @@ namespace cadastro
             Thread t2 = new Thread(abrirJanela);
             t2.SetApartmentState(ApartmentState.STA);
             t2.Start();
+        }
+        private void login(object obj)
+        {
+            Application.Run(new Form1());
         }
     }
 }

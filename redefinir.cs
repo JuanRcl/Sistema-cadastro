@@ -81,8 +81,17 @@ namespace cadastro
         {
             Application.Run(new Form1());
         }
-        
-        
-       
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            t = new Thread(homep);
+            t.SetApartmentState(ApartmentState.STA);
+            t.Start();
+        }
+        private void homep(object obj)
+        {
+            Application.Run(new Form1());
+        }
     }
 }
