@@ -24,7 +24,7 @@ namespace cadastro
         {
             try
             {
-                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=cadastro;password= ");
+                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=cadastro;password= Lima3463#");
                 conexao.Open();
                 MySqlCommand comando = new MySqlCommand("select nome, email, cpf, estado from dados_pessoais where cpf = ?",conexao);
                 comando.Parameters.Add("@cpf", MySqlDbType.VarChar, 11).Value = tb_cpf.Text;

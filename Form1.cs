@@ -27,7 +27,7 @@ namespace cadastro
             {
 
                 //Inicia a conexao
-                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=usuarios;password= ");
+                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=usuarios;password= Lima3463#");
                 conexao.Open();
                 //Isere o comando que vai pro bando de dados
                 MySqlCommand comando = new MySqlCommand("select login, senha from dados where login = ?", conexao);

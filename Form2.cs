@@ -50,7 +50,7 @@ namespace cadastro
             }
             try
             {
-                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=cadastro;password= ");
+                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=cadastro;password= Lima3463#");
                 conexao.Open();
                 //DADOS DA TABELA: NOME, EMAIL, CPF, ESTADO
                 MySqlCommand comando = new MySqlCommand("insert into dados_pessoais values(?, ?, ?, ?)", conexao);

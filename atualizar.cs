@@ -30,7 +30,7 @@ namespace cadastro
             }
             try
             {
-                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=cadastro;password= ");
+                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=cadastro;password= Lima3463#");
                 conexao.Open();
                 MySqlCommand comando = new MySqlCommand("select cpf from dados_pessoais where cpf = ?", conexao);
                 comando.Parameters.Add("@cpf", MySqlDbType.VarChar, 11).Value = tb_cpf.Text;
@@ -42,7 +42,7 @@ namespace cadastro
                 {
                     try {
 
-                        MySqlConnection conexao2 = new MySqlConnection("server=localhost;port=3306;User Id=root;database=cadastro;password= ");
+                        MySqlConnection conexao2 = new MySqlConnection("server=localhost;port=3306;User Id=root;database=cadastro;password= Lima3463#");
                         conexao2.Open();
                         MySqlCommand comando2 = new MySqlCommand("update dados_pessoais set nome = ?, email = ?, estado = ? where cpf = ?", conexao2);
                         comando2.Parameters.Add("@nome", MySqlDbType.VarChar, 50).Value = tb_nome.Text;

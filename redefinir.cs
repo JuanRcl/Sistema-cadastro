@@ -25,7 +25,7 @@ namespace cadastro
         {
             try
             {
-                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=usuarios;password= ");
+                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=usuarios;password= Lima3463#");
                 conexao.Open();
                 MySqlCommand comando = new MySqlCommand("select login from dados where login = ?", conexao);
                 comando.Parameters.Add("@login", MySqlDbType.VarChar, 30).Value = tb_user.Text;
@@ -40,7 +40,7 @@ namespace cadastro
 
                     try
                     {
-                        MySqlConnection conexao2 = new MySqlConnection("server=localhost;port=3306;User Id=root;database=usuarios;password= ");
+                        MySqlConnection conexao2 = new MySqlConnection("server=localhost;port=3306;User Id=root;database=usuarios;password= Lima3463#");
                         conexao2.Open();
                         MySqlCommand comando2 = new MySqlCommand("update dados set senha = ?, cpf = ?, nasc = ? where login = ?", conexao2);
                         comando2.Parameters.Add("@senha", MySqlDbType.VarChar, 8).Value = tb_senha.Text;

@@ -42,7 +42,7 @@ namespace cadastro
                 //A password(senha do servidor) esta vazia pois e a senha padrao do servidor XAMPP que eu uso, mas -
                 //caso tenha senha é so colocar a senha no espaco vazio
 
-                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=cadastro;password= ");
+                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=cadastro;password= Lima3463#");
                 conexao.Open();
 
                 MySqlCommand cmdDeletar = new MySqlCommand("delete from dados_pessoais where cpf = ?", conexao);    

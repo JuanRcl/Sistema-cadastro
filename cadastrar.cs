@@ -27,7 +27,7 @@ namespace cadastro
             try
             {
 
-                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=usuarios;password= ");
+                MySqlConnection conexao = new MySqlConnection("server=localhost;port=3306;User Id=root;database=usuarios;password= Lima3463#");
                 conexao.Open();
                 MySqlCommand comando = new MySqlCommand("insert into dados values (?, ?, ?, ?, ?)", conexao);
                 comando.Parameters.Add("@nome", MySqlDbType.VarChar, 70).Value = tb_nome.Text;
